@@ -1,0 +1,31 @@
+.header {
+    background-color: #a3c520;
+    padding: 10px 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Ein leichter Schatten für Tiefe */
+    display: flex; /* Verwendet Flexbox, um den Titel und die Navigation nebeneinander anzuzeigen */
+    justify-content: space-between; /* Gibt dem Titel und der Navigation Platz */
+    align-items: center; /* Zentriert die Elemente vertikal */
+    position: relative; /* Lässt den Header im Dokumentenfluss */
+    z-index: 10; /* Der Header bleibt über anderen Elementen */
+    width: 100%;
+}
+
+.header h1 {
+    color: white; /* Stellt sicher, dass der Titel gegen den grünen Hintergrund lesbar ist */
+    margin: 0; /* Entfernt die Standard-Margen */
+}
+
+.nav {
+    display: flex; /* Verwendet Flexbox, um die Links nebeneinander anzuzeigen */
+    gap: 20px; /* Gibt den Links Raum */
+}
+
+.nav a {
+    color: white; /* Stellt sicher, dass die Links gegen den grünen Hintergrund lesbar sind */
+    text-decoration: none; /* Entfernt den Unterstrich von Links */
+    transition: color 0.3s; /* Glatte Farbänderung beim Überfahren */
+}
+
+.nav a:hover {
+    color: #e6e6e6; /* Ändert die Farbe beim Überfahren */
+}

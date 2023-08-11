@@ -1,54 +1,62 @@
-.list {
-  display: grid;
-  margin: 0;
-  /* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
-  --w: 280px;
-  --n: 2;
-  gap: var(--size-gap);
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
-  );
-  margin-bottom: var(--size-gap);
-  margin-top: var(--size-gap);
+
+/* Ein Gradient für den Header */
+header {
+  background: linear-gradient(to right, #a3c520, #6a8e15);
+  padding: 10px 20px;
 }
 
-.listItem {
-  margin: 0;
+/* Weißer Text auf dem grünen Hintergrund */
+header h1, header nav a {
+  color: white;
 }
 
-.listItem::marker {
-  color: #e95800;
+#parallaxContainer {
+  background: linear-gradient(135deg, rgba(163,197,32, 0.9), rgba(106,142,21, 0.9), rgba(163,197,32, 0.9));
 }
 
-.listItem:nth-child(2)::marker {
-  color: #159bf3;
+
+
+.parallax {
+  position: relative;
+}
+/* Grüner Hover-Effekt für Links */
+header nav a:hover {
+  color: #a3c520;
+  background-color: white;
+  padding: 2px 4px;
 }
 
-.listItem:nth-child(3)::marker {
-  color: #8eb814;
-}
-
-.listItem:nth-child(4)::marker {
-  color: #663399;
-}
-
-.listItemLink {
-  color: var(--color-primary);
-  font-weight: bold;
-}
-
-.listItemDescription {
-  color: var(--color-text);
-  margin-bottom: 0;
-  margin-top: var(--space-1);
-}
-
-.textCenter {
+/* Ein spezieller Stil für den Slogan */
+slogan {
+  font-size: 1.5em;
   text-align: center;
 }
 
-.intro {
-  max-width: none;
-  line-height: var(--line-height-loose);
+/* Dunkler Footer mit grünen Links */
+footer {
+  background-color: #333;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #a3c520;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.sloganContainer {
+  height: 30vh;  /* Dies reserviert 30% der Bildschirmhöhe für den Slogan */
+  display: flex;
+  align-items: center;  /* Zentriert den Slogan vertikal im Container */
+  justify-content: center;  /* Zentriert den Slogan horizontal im Container */
+  overflow: hidden;  /* Verhindert, dass überlanger Text außerhalb des Containers angezeigt wird */
+}
+
+.animatedText {
+  font-size: 2em;  /* Einstellbare Größe nach Bedarf */
+  text-align: center;
+  transform: translate(-50%, -50%);  /* korrigiert die Position, um wirklich in der Mitte zu sein */
+  transition: 0.3s ease-in-out;  /* Smooth Übergang für Textänderungen */
 }
