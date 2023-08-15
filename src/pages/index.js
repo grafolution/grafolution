@@ -31,10 +31,10 @@ const IndexPage = ({data}) => {
     return (
         <div id={styles.parallaxContainer} >
             <div style={{ color: `#a3c520` }}>
-                <Header className={styles.parallax} style={{ backgroundColor: `#a3c520`, color: `white` }} />
-                <Slogan className={styles.parallax}  />
+                <Header  style={{ backgroundColor: `#a3c520`, color: `white` }} />
+                <Slogan />
                 <Section />
-                <Footer className={styles.parallax} style={{ backgroundColor: `#333`, color: `#a3c520` }} />
+                <Footer style={{ backgroundColor: `#333`, color: `#a3c520` }} />
             </div>
         </div>
     );

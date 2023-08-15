@@ -29,3 +29,8 @@
 .nav a:hover {
     color: #e6e6e6; /* Ändert die Farbe beim Überfahren */
 }
+.languageSelector {
+    margin-left: 20px;
+    padding: 5px;
+    cursor: pointer;
+}

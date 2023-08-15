@@ -16,7 +16,6 @@ class Slogan extends React.Component {
     }
 
     componentDidMount() {
-        const { currentSlogan} = this.state;
 
            this.timerID = setInterval(
                this.changeSlogan,
