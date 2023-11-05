@@ -1,0 +1,11 @@
+{
+  "welcome": "Willkommen bei Grafolution",
+  "contactPage": {
+    "title": "Kontaktieren Sie uns",
+    "description": "Haben Sie Fragen? Kontaktieren Sie uns und wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "name": "Ihr Name",
+    "email": "Ihre Email",
+    "message": "Ihre Nachricht",
+    "submitButton": "Nachricht senden"
+  }
+}
