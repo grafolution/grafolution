@@ -8,4 +8,25 @@
     "message": "Ihre Nachricht",
     "submitButton": "Nachricht senden"
   }
+  
+  "educationJourney": {
+    "title": "Educational Journey",
+    "timeline1": {
+      "date": "Jan 2020–July 2023",
+      "title": "University of Applied Sciences Upper Austria",
+      "degree": "Bachelor's degree in Computer Software Engineering",
+      "description": "Focus: Algorithms, Computer Networks, and Programming Frameworks."
+    },
+    "timeline2": {
+      "date": "2014–2019",
+      "title": "HTBLuVA St. Pölten",
+      "degree": "Matura in Informatics"
+    }
+  },
+  "skillsTree": {
+    "title": "Skills Tree",
+    "basicSkills": "Basic Skills",
+    "skill1": "Java",
+    "skill2": ".NET"
+  }
 }

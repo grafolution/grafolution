@@ -7,6 +7,26 @@
     "email": "Your Email",
     "message": "Your Message",
     "submitButton": "Send Message"
+  },
+  "educationJourney": {
+    "title": "Bildungsreise",
+    "timeline1": {
+      "date": "Jan. 2020–Juli 2023",
+      "title": "Fachhochschule Oberösterreich",
+      "degree": "Bachelor in Computer Software Engineering",
+      "description": "Schwerpunkte: Algorithmen, Computernetzwerke und Programmierframeworks."
+    },
+    "timeline2": {
+      "date": "2014–2019",
+      "title": "HTBLuVA St. Pölten",
+      "degree": "Matura in Informatik"
+    }
+  },
+  "skillsTree": {
+    "title": "Fähigkeitenbaum",
+    "basicSkills": "Grundfähigkeiten",
+    "skill1": "Java",
+    "skill2": ".NET"
   }
 
 }
