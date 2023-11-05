@@ -8,8 +8,7 @@ i18n
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-        fallbackLng: "en", // Falls die Sprache nicht erkannt wird, wird auf Englisch zurückgegriffen
-        debug: true,
+        fallbackLng: "en",         debug: true,
         detection: {
             order: ['queryString', 'cookie', 'localStorage', 'sessionStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
             caches: ['localStorage', 'cookie']
